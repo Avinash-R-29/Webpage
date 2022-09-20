@@ -1,0 +1,23 @@
+h4{
+    color: black;
+    background-color: azure;
+}
+body{
+    color:#2f2f33;
+    background: url(img1.jpg) no-repeat center/cover;
+    
+}
+input{
+  border-style:solid;
+}
+table{
+    border: 3;
+    padding-inline: 20px;
+    border-spacing:15px;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+

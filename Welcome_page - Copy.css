@@ -1,0 +1,53 @@
+nav{
+    /*height:70px;
+    width:100%;
+    background-color: rgb(161, 157, 157);*/
+    color: black;
+    position:fixed;
+}
+nav li{
+    display:inline;
+    float:inline-start;
+    font-style:initial;
+    font-weight:bolder;
+    font-size: large;
+    padding-left: 50px;
+}
+nav li:hover{
+    background-color: rgb(50, 176, 208);
+}
+nav a{
+    width:90px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(32, 34, 32);
+}    
+#welcome-head .bodyinfo{
+    /*background-color: gray;*/
+    text-decoration:solid;
+    text-align: center;
+    font-size: medium;
+    font-size: larger;
+    /*padding-left: 100px;*/
+}
+p{
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25;
+}
+body{
+    background: url(img5.png) no-repeat center/cover;
+}
+#welcome-head .aboutkmf{
+    font-size:25;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    height:30px;
+    width:fixed;
+    text-align: center;
+}
