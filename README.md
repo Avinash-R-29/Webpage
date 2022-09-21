@@ -2,10 +2,8 @@
  
  <html>
     <head>
-    <title>
-        Welcome Page
-    </title>
-     <link rel="stylesheet" type="text/css" href="Welcome_page.css"></script>
+    <title>Welcome Page</title>
+     <link rel="stylesheet" type="text/css" href="Welcome_page.css">
     </head>
     <body>
         <div id="welcome-head">
