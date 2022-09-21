@@ -5,8 +5,6 @@
     <title>
         Welcome Page
     </title>
-    <script type="text/javascript" scr="">
-    </script>
      <link rel="stylesheet" type="text/css" href="Welcome_page.css"></script>
     </head>
     <body>
