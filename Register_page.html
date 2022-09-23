@@ -3,15 +3,16 @@
         <title>
         Register Page
         </title>
-    <script type="text/javascript" src="Register_page.js"></script>
-    <link rel="stylesheet" type="text/css" href="Register_page.css">
+    <script type="text/javascript" src="register.js"></script>
+    <link rel="stylesheet" type="text/css" href="register.css">
     </head>
     <body>
         <div id="heading-page">     
-        <table border="0" align="center">
+        <table border="0" align="center" id="new">
             <thead>
                 <tr>
                     <th colspan="6"><h2>Welcome to New Registration<hr></h2></th>
+<span id="msg" style="color: red;"></span><br><br>
                 </tr>
                 <hr>
                 <tr>
@@ -20,38 +21,45 @@
                     </th>
                     <td>
                         <input type="text" id="u_name" placeholder="Username">
+<span id="name_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Phone number :
                     </th>
                     <td>
                         <input type="number" id="p_number" placeholder="Phone Number">
+<span id="pnum_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Email Id : 
                     </th>
                     <td>
                         <input type="email" id="u_email" placeholder="Enter Mail Id">
+<span id="mail_msg" style="color: red;"></span><br><br>
                     </td>
+			
                 </tr>
                 <tr>
                     <th>
                     Address:
                     </th>
                     <td>
-                        <textarea id="u_date" placeholder="Address"></textarea>
+                        <textarea id="u_addrs" placeholder="Address"></textarea>
+<span id="adr_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                     City
                     </th>
                     <td>
                         <input type="text" id="u_city" placeholder="Enter city">
+<span id="city_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Pincode :
                         </th>
                         <td>
-                            <input type="text" id="u_pincode" placeholder="Enter Ppincode">
+                            <input type="text" id="u_pincode" placeholder="Enter pincode">
+<span id="pin_msg" style="color: red;"></span><br><br>
                         </td>
                         </tr>
                     <th>
@@ -59,18 +67,21 @@
                     </th>
                     <td>
                         <input type="text" id="u_state" placeholder="Enter state">
+<span id="sta_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Country Name : 
                     </th>
                     <td>
                         <input type="text" id="u_country" placeholder="Enter the Country">
+<span id="con_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Company Name : 
                     </th>
                     <td>
                         <input type="text" id="u_cmpny" placeholder="Enter company name">
+<span id="cmp_msg" style="color: red;"></span><br><br>
                     </td>
                     </tr>
                     <th>
@@ -78,24 +89,23 @@
                     </th>
                     <td>
                         <input type="text" id="u_ocuption" placeholder="Enter occupation">
+<span id="occ_msg" style="color: red;"></span><br><br>
                     </td>
                     <th>
                         Year of Experience :
                         </th>
                         <td>
                             <input type="number" id="u_experience" placeholder="Enter Experience">
+<span id="exp_msg" style="color: red;"></span><br><br>
                         </td>
                 </tr>
             </thead>
         </table><hr><br>
         <div align="center">
             <a href="Login_page.html"><input type="button" value="Back"></a>
-        <a href="Welcome_page.html"><input type="submit" id="login_submit" onclick="submit()"></a>
+            <input type="submit" id="login_submit" onclick="submit()">
+	    <input type="button"  value="Clear" id="clear" onclick="clear()">
         </div>
     </div>
     </body>
     </html>
-
-    
-
-    
